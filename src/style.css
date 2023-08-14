@@ -1,0 +1,78 @@
+:root {
+    --primary-blue: #0051EF;
+    --primary-green: #30EF0085;
+}
+
+body { 
+    overflow-x: hidden; 
+}
+
+.title {
+    position: relative;
+    color: var(--primary-blue);
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    top: 20vh;
+    margin: 0;
+}
+
+.circle-blue {
+    position: absolute;
+    background: var(--primary-blue);
+    border-radius: 50%;
+    opacity: 0.35;
+    
+}
+
+.circle-green {
+    position: absolute;
+    background: var(--primary-green);
+    border-radius: 50%;
+    opacity: 0.75;
+}
+
+#c1 {
+    width: 10vw;
+    height: 10vw;
+    right: 20vw;
+    top: 10vh;
+}
+
+#c2 {
+    width: 15vw;
+    height: 15vw;
+    left: 10vw;
+    top: 20vh;
+}
+
+#c3 {
+    width: 8vw;
+    height: 8vw;
+    left: 10vw;
+    top: 43vh;
+    opacity: 0.6;
+}
+
+#c4 {
+    width: 10vw;
+    height: 10vw;
+    right: 3vw;
+    bottom: 40vh;
+}
+
+#c5 {
+    width: 18vw;
+    height: 18vw;
+    right: -5vw;
+    bottom: 10vh;
+    opacity: 0.4;
+}
+
+#dog {
+    width: 27vw;
+    height: 27vw;
+    position: absolute;
+    bottom: 0px;
+    left: 35vw;
+}
