@@ -15,7 +15,7 @@ const optionsText2 = {
 }
 
 const optionsCircle1 = {
-    delay: 1000, 
+    delay: 1300, 
     duration: 3000,
     reset: true,
     origin: 'top',
@@ -23,7 +23,7 @@ const optionsCircle1 = {
 }
 
 const optionsCircle2 = {
-    delay: 1000, 
+    delay: 1300, 
     duration: 2000,
     reset: true,
     origin: 'top',
