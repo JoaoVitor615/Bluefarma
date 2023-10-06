@@ -44,4 +44,4 @@ ScrollReveal(optionsText2).reveal('.reveal-text2');
 ScrollReveal(optionsCircle1).reveal('.reveal-circle1');
 ScrollReveal(optionsCircle2).reveal('.reveal-circle2');
 
-ScrollReveal(optionsImgDog).reveal('#dog');
+ScrollReveal(optionsImgDog).reveal('.dog');
