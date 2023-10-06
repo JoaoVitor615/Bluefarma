@@ -17,6 +17,10 @@ body {
     margin: 0;
 }
 
+.screen1 {
+    height: 100vh;
+}
+
 .circle-blue {
     position: absolute;
     background: var(--primary-blue);
@@ -32,21 +36,21 @@ body {
     opacity: 0.75;
 }
 
-#c1 {
+.c1 {
     width: 10vw;
     height: 10vw;
     right: 20vw;
     top: 10vh;
 }
 
-#c2 {
+.c2 {
     width: 15vw;
     height: 15vw;
     left: 10vw;
     top: 20vh;
 }
 
-#c3 {
+.c3 {
     width: 8vw;
     height: 8vw;
     left: 10vw;
@@ -54,14 +58,14 @@ body {
     opacity: 0.6;
 }
 
-#c4 {
+.c4 {
     width: 10vw;
     height: 10vw;
     right: 3vw;
     bottom: 40vh;
 }
 
-#c5 {
+.c5 {
     width: 18vw;
     height: 18vw;
     right: -5vw;
@@ -69,10 +73,15 @@ body {
     opacity: 0.4;
 }
 
-#dog {
+.dog {
     width: 27vw;
     height: 27vw;
     position: absolute;
-    bottom: 0px;
-    left: 35vw;
+    bottom: 0;
+}
+
+.container-dog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
