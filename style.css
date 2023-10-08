@@ -125,7 +125,7 @@ body {
 }
 
 .conteudo-titulo {
-    background-image: linear-gradient(90deg, #5F92F5 43.06%, rgba(0, 66, 195, 0.87) 95.9%);
+    background-image: linear-gradient(90deg, #5F92F5 43.06%, #0042c3de 95.9%);
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
@@ -154,6 +154,14 @@ body {
     width: 335px;
     background: #FFFFFF;
     font-weight: 700;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.ver-mais:hover {
+    box-shadow: inset 335px 0 0 0 #5F92F5;
+    color: #fff;
+    border-color: #0042c3de;
 }
 
 p {
