@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-blue: #0051EF;
     --primary-green: #30EF0085;
@@ -84,4 +90,87 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.cat {
+    width: 27vw;
+    height: 33vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quem-somos {
+    border-radius: 50px;
+    padding: 50px;
+    width: 90%;
+    box-shadow: 0px 7px 28px 15px #00000030;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quem-somos-titulo {
+    background-image: linear-gradient(90.16deg, #393939 9.99%, rgba(99, 99, 99, 0.84) 98.11%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.conteudo-titulo {
+    background-image: linear-gradient(90deg, #5F92F5 43.06%, rgba(0, 66, 195, 0.87) 95.9%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 96px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.conteudo-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-left: 100px;
+}
+
+.conteudo {
+    display: flex;
+    margin-top: 130px;
+}
+
+.ver-mais {
+    border: 1px solid #5388ED;
+    height: 70px;
+    font-size: 18px;
+    width: 335px;
+    background: #FFFFFF;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.div {
+    height: 100vh;
+}
+
+@media(max-width: 950px) and (min-width: 350px) {
+    .dog {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        bottom: 0;
+    }
 }
